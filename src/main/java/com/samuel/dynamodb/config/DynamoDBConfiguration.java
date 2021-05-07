@@ -29,7 +29,7 @@ public class DynamoDBConfiguration {
                         new AwsClientBuilder.EndpointConfiguration("dynamodb.us-east-1.amazonaws.com", "us-east-1"))
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
-                                new BasicAWSCredentials("AKIAZGDM7AOC46W4TYUD", "OlXZgNjMnjVpWQiO5EbG8EOEZThk1Jd8MXZSi8IU"
+                                new BasicAWSCredentials("IAM_KEY", "IAM_PASS"
                                 )
                         )
                 ).build();
